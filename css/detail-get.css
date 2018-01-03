@@ -1,0 +1,439 @@
+html{
+    width:100%;
+    height:100%;
+    position: relative;
+}
+body{
+    margin:0;
+    padding: 0;
+    height:100%;
+    background: #dfdfdf;
+    overflow-x: hidden;
+}
+.header{
+    top:0;
+    width: 100%;
+    height: .9rem;
+    background: #ffb607;
+    height: .9rem;
+    line-height: .9rem;
+    position: fixed;
+    top:0;
+    z-index: 1000;
+    color: #ffffff;
+    font-size: .34rem;
+    font-weight:bold;
+}
+.back2{
+    width:.29rem;
+    height:.44rem;
+
+}
+.car{
+    width:3rem;
+    height:100%;
+    position:absolute;
+    left:.2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.car span{
+    margin-left: .13rem;
+
+}
+.search{
+    width: .43rem;
+    height: .45rem;
+    margin-top: .23rem;
+    position: absolute;
+    right: .3rem;
+}
+.car a{
+	color: #ffffff;
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+}
+.search2{
+    width:1rem;
+    height: 100%;
+    position: absolute;
+    right:0;
+}
+.center{
+    width: 3rem;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+    left:50%;
+    margin-left: -1.5rem;
+    font-size: .34rem;
+    color: #ffffff;
+}
+/*中间自适应*/
+.country{
+    width: 100%;
+    position: absolute;
+    top:.9rem;
+    bottom: 1.5rem;
+    overflow-y: auto;
+    overflow-x: hidden;
+    z-index: 100;
+    }
+.wei{
+	width: 100%;
+	height: 1.4rem;
+	background: #FFFFFF;
+	margin-bottom: .05rem;
+	font-size:.3rem;
+	color: #000000;
+	font-weight: bold;
+	overflow-x: hidden;
+}
+.wei li{
+	height: .4rem;
+	line-height: .4rem;
+	padding-top: .2rem;
+	padding-left: .2rem;
+	overflow-x: hidden;
+}
+/*收货详情*/
+.address{
+	width: 100%;
+	height: 1.8rem;
+	background: #FFFFFF;
+	margin-bottom: .05rem;
+	overflow-x: hidden;
+}
+.address-1{
+	width: 100%;
+	height: .9rem;
+	line-height: .9rem;
+	font-size: .28rem;
+	color: #000000;
+	font-weight: bold;
+	overflow-x: hidden;
+}
+.first{
+	float:left;
+	margin-left: .2rem;
+	overflow-x: hidden;
+	
+}
+.second{
+	float:right;
+	margin-right: .2rem;
+	overflow-x: hidden;
+}
+.text-2{
+	width: 7.06rem;
+	height: .9rem;
+	color: #000000;
+	font-size: .28rem;
+	font-weight: bold;
+	margin: 0 auto;
+	overflow-x: hidden;
+	
+}
+
+.shop{
+    width: 100%;
+    height: .6rem;
+    padding-top: .2rem;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    overflow-x: hidden;
+
+}
+.shoplist{
+    width: .38rem;
+    height: .38rem;
+    margin-left: .4rem;
+    overflow-x: hidden;
+}
+.shopname{
+    font-size: .28rem;
+    color: #000000;
+    font-weight: bold;
+    margin-left: .25rem;
+    margin-right: .4rem;
+    overflow-x: hidden;
+}
+.back{
+    width: .18rem;
+    height: .32rem;
+      overflow-x: hidden;
+
+}
+.shop2{
+    width: 100%;
+    height:2.1rem;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    overflow-x: hidden;
+}
+.background{
+    width: 2.4rem;
+    height: 1.66rem;
+    margin-left: .4rem;
+      overflow-x: hidden;
+}
+.detail{
+     width: 3.8rem;
+     height:1.6rem;
+     margin-left: .25rem;
+     display: flex;
+     flex-direction:column;
+     position: absolute;
+     right:.2rem;
+     z-index: 10;
+     overflow-x: hidden;
+ }
+.detail-title{
+    color: #000000;
+    font-size: .28rem;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:2;
+    font-weight: bold;
+    height: .8rem;
+}
+.text{
+    color: #969696;
+    font-weight: bold;
+    font-size: .28rem;
+    margin-top: .15rem;
+    margin-bottom: .15rem;
+    overflow-x: hidden;
+}
+.text2{
+    font-size: .28rem;
+    color: #ff4707;
+    font-weight: bold;
+    overflow-x: hidden;
+}
+.text2 em{
+    font-size: .26rem;
+    color:#969696;
+    text-decoration:line-through;
+    margin-left: .21rem;
+      overflow-x: hidden;
+}
+.text2 cite{
+    position: absolute;
+    right:.4rem;
+    font-size: .28rem;
+    color: #000000;
+    font-weight:bold;
+      overflow-x: hidden;
+
+}
+.all2{
+	width: 100%;
+	height: auto;
+	background: #ffffff;
+	overflow-x: hidden;
+}
+
+/*订单总价*/
+.price{
+	width: 100%;
+	height: 1.8rem;
+	background: #ffffff;
+	margin-top: .05rem;
+	margin-bottom: .05rem;
+	overflow-x: hidden;
+}
+.price ul li span{
+	float: left;
+	margin-left: .2rem;
+	  overflow-x: hidden;
+}
+.price ul li em{
+	float: right;
+	margin-right: .2rem;
+	  overflow-x: hidden;
+}
+.price ul li:first-child{
+	font-size: .28rem;
+	color: #969696;
+	font-weight: bold;
+	  overflow-x: hidden;
+}
+.price ul li:nth-child(2){
+	font-size: .28rem;
+	color: #969696;
+	font-weight: bold;
+	  overflow-x: hidden;
+}
+
+.price ul li:nth-child(3){
+	font-size: .3rem;
+	color: #000000;
+	font-weight: bold;
+	  overflow-x: hidden;
+}
+
+.price ul li{
+	width: 100%;
+	height: .6rem;
+	line-height: .6rem;
+	display: block;
+	  overflow-x: hidden;
+}
+.num{
+	widows: 100%;
+	height: 1.8rem;
+	background: #ffffff;
+	display: flex;
+	flex-direction: column;
+	overflow-x: hidden;
+}
+.num ul li{
+	font-size: .28rem;
+	color: #969696;
+	font-weight: bold;
+	width: 100%;
+	margin-left: .2rem;
+	height: .6rem;
+	line-height: .6rem;
+	  overflow-x: hidden;
+}
+.num ul li span{
+	padding-left: .2rem;
+	  overflow-x: hidden;
+}
+.tuihuo{
+	width: 100%;
+	height: 1.2rem;
+	background: #ffffff;
+	margin-bottom: .05rem;
+	position: relative;
+	  overflow-x: hidden;
+}
+.tui{
+	width: 1.86rem;
+	height: .55rem;
+	border:1px solid #000000;
+	float: right;
+	text-align: center;
+	color: #000000;
+	line-height: .55rem;
+	font-size: .34rem;
+	font-weight: bold;
+	margin-right: .53rem;
+	margin-top: .32rem;
+	  overflow-x: hidden;
+}
+.quxiao{
+	width: 1.86rem;
+	height: .55rem;
+	border:1px solid #000000;
+	text-align: center;
+	color: #000000;
+	line-height: .55rem;
+	font-size: .34rem;
+	font-weight: bold;
+	position: absolute;
+	top:.32rem;
+	right:2.82rem;
+}
+
+.fukuan{
+	width: 1.86rem;
+	height: .58rem;
+	text-align: center;
+	color: #ffffff;
+	line-height: .58rem;
+	font-size: .34rem;
+	font-weight: bold;
+	position: absolute;
+	top:.32rem;
+	right:.54rem;
+	background: #ffb607;
+	  overflow-x: hidden;
+}
+.address-detail{
+	width: 100%;
+	height: auto;
+	background: #ffffff;
+	margin-bottom: .05rem;
+	display: flex;
+	flex-direction: column;
+	  overflow-x: hidden;
+}
+.address-detail-1{
+	width: 100%;
+	height: .3rem;
+	font-size: .3rem;
+	color: #000000;
+	font-weight: bold;
+	padding-left: .1rem;
+	margin-top: .3rem;
+	overflow-x: hidden;
+}
+
+.address-detail-2{
+	width: 100%;
+	height: .3rem;
+	font-size: .3rem;
+	color: #989898;
+	font-weight: bold;
+	margin-top: .3rem;
+	margin-bottom: .2rem;
+	padding-left: .2rem;
+	overflow-x: hidden;
+}
+.address-detail-2 span{
+	margin-left: .4rem;
+	  overflow-x: hidden;
+}
+
+.queren{
+	width: 1.86rem;
+	height: .62rem;
+	text-align: center;
+	color: #ffffff;
+	line-height: .62rem;
+	font-size: .34rem;
+	font-weight: bold;
+	position: absolute;
+	top:.32rem;
+	right:.54rem;
+	background: #ffb607;
+}
+
+.yanchi{
+	width: 1.86rem;
+	height: .58rem;
+	text-align: center;
+	color: #000000;
+	line-height: .58rem;
+	font-size: .34rem;
+	font-weight: bold;
+	position: absolute;
+	top:.32rem;
+	right:2.8rem;
+	background: #ffffff;
+	border: 1px solid #1e1e1e;
+}
+
+.tuihuo2{
+	width: 1.86rem;
+	height: .58rem;
+	text-align: center;
+	color: #000000;
+	line-height: .58rem;
+	font-size: .34rem;
+	font-weight: bold;
+	position: absolute;
+	top:.32rem;
+	right:5.12rem;
+	border: 1px solid #1e1e1e;
+	background: #ffffff;
+	}

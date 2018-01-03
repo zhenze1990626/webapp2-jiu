@@ -1,0 +1,585 @@
+html{
+    width:100%;
+    height:100%;
+    position: relative;
+}
+body{
+    margin:0;
+    padding: 0;
+    height:100%;
+    background: #ffffff;
+    overflow-x: hidden;
+}
+
+.header{
+    top:0;
+    width: 100%;
+    height: .9rem;
+    background: #ffb607;
+    height: .9rem;
+    line-height: .9rem;
+    position: fixed;
+    top:0;
+    z-index: 1000;
+    color: #ffffff;
+    font-size: .34rem;
+    font-weight:bold;
+}
+.back2{
+    width:.29rem;
+    height:.44rem;
+
+}
+.car{
+    width:3rem;
+    height:100%;
+    position:absolute;
+    left:.2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.car span{
+    margin-left: .13rem;
+
+}
+.search{
+    width: .43rem;
+    height: .45rem;
+    margin-top: .23rem;
+    position: absolute;
+    right: .3rem;
+}
+
+.search2{
+    width:1rem;
+    height: 100%;
+    position: absolute;
+    right:0;
+}
+.center{
+    width: 3rem;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+    left:50%;
+    margin-left: -1.5rem;
+    font-size: .34rem;
+    color: #ffffff;
+}
+/*中间自适应*/
+.country{
+    width: 100%;
+    position: absolute;
+    top:.9rem;
+    bottom: 1.5rem;
+    overflow-y: auto;
+    overflow-x: hidden;
+    z-index: 100;
+}
+
+/*选项卡*/
+.tab{
+    width: 100%;
+    height: 1.8rem;
+    display: flex;
+    flex-direction: row;
+}
+.tab div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.left{
+    background: #f6c550;
+    width: 50%;
+    height:100% ;
+}
+.left li:first-child{
+    font-size: .74rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: .3rem;
+    margin-bottom: .15rem;
+}
+.left li:nth-child(2){
+    font-size: .3rem;
+    color: #ffffff;
+}
+
+.right{
+    background: #f6c550;
+    width: 50%;
+    height:100% ;
+}
+.right li:first-child{
+    font-size: .74rem;
+    font-weight: bold;
+    color:#ffffff;
+    margin-top: .3rem;
+    margin-bottom: .15rem;
+}
+.right li:nth-child(2){
+    font-size: .3rem;
+    color:#ffffff;
+}
+.black10{
+    width: 100%;
+    height:.05rem;
+    background: #dfdfdf;
+}
+.layout{
+    width: 100%;
+    height: auto;
+    background: #ffffff;
+    position: relative;
+}
+.person4{
+    width: 3.62rem;
+    height: 3.62rem;
+    margin-top: 1.5rem;
+    position: absolute;
+    left: 50%;
+    margin-left: -1.81rem;
+    margin-bottom: .7rem;
+}
+.layout div{
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+}
+.text1{
+    position: absolute;
+    top:5.86rem;
+    font-size: .34rem;
+    color: #000000;
+    margin-bottom: .25rem;
+}
+.text2{
+    font-size: .34rem;
+    color: #a2a1a1;
+    position: absolute;
+    top:6.4rem;
+}
+/*佣金详情*/
+.detail{
+    width: 100%;
+    height: 1.8rem;
+    background: #ffffff;
+    border-bottom: 1px solid #dfdfdf;
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+}
+.detail div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #f6c550;
+    font-size: .3rem;
+    width: 33.33%;
+    height: 100%;
+    border-right:1px solid #dfdfdf;
+
+}
+.price{
+    margin: .6rem 0 .2rem 0;
+}
+.year{
+    width: 100%;
+    height: 1.12rem;
+    background: #ffffff;
+    line-height: 1.12rem;
+    border-bottom:.05rem solid #dfdfdf;
+    display: flex;
+    flex-direction: row;
+}
+
+.dongjie{
+    position: relative;
+
+}
+.hao{
+    width: .21rem;
+    height: .21rem;
+    position: absolute;
+    top:.46rem;
+    left: 1.88rem;
+}
+/*下拉框*/
+.nice-select{
+    width:2.34rem;
+    height:.73rem;
+    border: 1px solid #dfdfdf;
+    background:#ffffff url(../img/list.png) no-repeat 1.94rem center ;
+    background-size: .33rem .33rem;
+    position: relative;
+    margin: .16rem 0 0 .32rem;
+}
+
+.nice-select input{
+    display: block;
+    width: 100%;
+    height:.73rem;
+    line-height: .73rem \9;
+    border: 0;
+    outline: 0;
+    background: none;
+    padding-left: .2rem;
+}
+.select-year{
+    font-weight: bold;
+    color: #000000;
+    font-size: .38rem;
+}
+.nice-select ul{
+    width: 100%;
+    display: none;
+    position: absolute;
+    left: -1px;
+    top:.74rem;
+    overflow: hidden;
+    background-color: #fff;
+    max-height:3.2rem;
+    overflow-y: auto;
+    border: 1px solid #dfdfdf;
+    border-top: 0;
+    z-index: 9999;
+}
+
+.nice-select ul li{
+    height:.66rem;
+    line-height:.66rem;
+    overflow: hidden;
+    font-weight: bold;
+    color: #000000;
+    font-size: .38rem;
+    padding-left: .2rem;
+    cursor: pointer;
+   }
+.nice-select ul li.on{
+    background-color: #e0e0e0;
+}
+.year-right{
+    color: #f6c550;
+    font-size: .38rem;
+    font-weight: bold;
+    position: absolute;
+    right: .6rem;
+}
+/*月份详情*/
+.month{
+    width: 100%;
+    height: 1.14rem;
+    border-bottom: .05rem solid #dfdfdf;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    line-height: 1.14rem;
+
+}
+.number{
+    color: #000000;
+    font-size: .34rem;
+    font-weight: bold;
+    position: absolute;
+    left: .3rem;
+}
+.list{
+    width: .33rem;
+    height: .33rem;
+    position: absolute;
+    right: .14rem;
+    margin-top: .4rem;
+}
+.price2{
+    font-size: .32rem;
+    color: #f6c550;
+    font-weight: bold;
+    position: absolute;
+    right: .6rem;
+}
+.detail3{
+    width: 100%;
+    height:2.6rem;
+    border-bottom: .05rem solid #dfdfdf;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    display:none;
+}
+.color{
+    width: 100%;
+    height: .25rem;
+    background: #dfdfdf;
+}
+.title{
+    width: 100%;
+    height:2.3rem;
+    display: flex;
+    flex-direction:column;
+}
+.title div {
+    width: 100%;
+    height: 1.15rem;
+    line-height: 1.15rem;
+    font-size: .32rem;
+    position: relative;
+    font-weight: bold;
+}
+.title div span{
+    position: absolute;
+    left: .26rem;
+    color: #969696;
+
+}
+.title div em{
+    position: absolute;
+    right: .6rem;
+    color: #f6c550;
+}
+
+.dot-top2 {
+    font-size: 0;
+    line-height: 0;
+    border-width:.35rem;
+    border-color:#ffffff;
+    border-top-width: 0;
+    border-style: dashed;
+    border-bottom-style: solid;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    position: absolute;
+    top:0;
+    margin-top: -.05rem;
+    left: .4rem;
+
+}
+/*可用佣金*/
+.withdrawals{
+    width: 100%;
+    height: 1.14rem;
+    line-height: 1.14rem;
+    font-size: .44rem;
+    color: #000000;
+    font-weight: bold;
+    border-top:1px solid #949494;
+    padding-left: .34rem;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    overflow-x: hidden;
+}
+.text9{
+    width:4rem;
+    height: 100%;
+}
+.text10{
+    width: 1.9rem;
+    height: .85rem;
+    background: #ffb607;
+    text-align: center;
+    line-height: .85rem;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: .54rem;
+    position: absolute;
+    right: .47rem;
+    bottom: .13rem;
+}
+
+
+/*弹窗*/
+.black2{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top:0;
+    background: #666666;
+    z-index: 5000;
+    display: none;
+    filter:alpha(opacity=70);  /*支持 IE 浏览器*/
+    -moz-opacity:0.7; /*支持 FireFox 浏览器*/
+    -khtml-opacity: 0.7; /*webkit内核浏览器*/
+    opacity:0.7;  /*支持 Chrome, Opera, Safari 等浏览器*/
+
+}
+
+.alert10{
+    width: 100%;
+    height: 3.7rem;
+    position: absolute;
+    top:50%;
+    margin-top: -1.85rem;
+    z-index: 10000;
+    background:#e9e9e9;
+    display:none;
+}
+
+.alert11{
+    width: 100%;
+    height: 4.7rem;
+    position: absolute;
+    top:50%;
+    margin-top: -2.35rem;
+    z-index: 10000;
+    background:#e9e9e9;
+    display:none;
+}
+
+
+.alert12{
+    width: 100%;
+    height: 4.7rem;
+    position: absolute;
+    top:50%;
+    margin-top: -2.35rem;
+    z-index: 10000;
+    background:#ffffff;
+    display:none;
+
+}
+
+
+.alert13{
+    width: 100%;
+    height: 4.7rem;
+    position: absolute;
+    top:50%;
+    margin-top: -2.35rem;
+    z-index: 10000;
+    background:#ffffff;
+    display:none;
+
+}
+.title8-1{
+    font-size: .34rem;
+    color: #000000;
+    margin-top: .46rem;
+    margin-bottom: .4rem;
+}
+.title8-2{
+    font-size: .3rem;
+    color: #646464;
+    margin-bottom: .3rem;
+}
+
+.title8-3{
+    font-size: .3rem;
+    color: #646464;
+
+}
+
+.title10{
+    width: 100%;
+    height: 1rem;
+    line-height: 1rem;
+    background: #ffffff;
+    color:#ffb607;
+    font-weight: bold;
+    font-size:.54rem ;
+    padding-left: .3rem;
+    border-bottom: .1rem solid #e9e9e9;
+    margin-bottom: .1rem;
+}
+.title2 {
+    width:100%;
+    height: 1.5rem;
+    overflow-x: hidden;
+    margin: 0 auto;
+    background: #ffffff;
+    color: #000000;
+    font-weight: bold;
+    font-size: .34rem;
+    padding-top: .4rem;
+    overflow-x: hidden;
+}
+.title3{
+    width: 100%;
+    height: 1.1rem;
+    background: #ffb607;
+    text-align: center;
+    line-height: 1.12rem;
+    font-size:.62rem;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: .02rem;
+}
+.title4{
+    width: 100%;
+    height: 2.4rem;
+    background: #ffffff;
+    text-align: center;
+    font-size:.34rem;
+    color: #000000;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
+
+.title5{
+    width: 100%;
+    height: 1.1rem;
+    background: #ffb607;
+    text-align: center;
+    line-height: 1.12rem;
+    font-size:.62rem;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: .02rem;
+}
+
+
+.title6{
+    width: 100%;
+    height: 1.1rem;
+    background: #ffb607;
+    text-align: center;
+    line-height: 1.12rem;
+    font-size:.62rem;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: .02rem;
+}
+
+.title7{
+    width: 100%;
+    height: 1.1rem;
+    background: #ffb607;
+    text-align: center;
+    line-height: 1.12rem;
+    font-size:.62rem;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: .02rem;
+}
+.title8{
+    width: 100%;
+    height: 2.4rem;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.title9{
+    width: 100%;
+    height: 2.4rem;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
+.title-keyong{
+    margin: .4rem 0 .3rem 0;
+}
+.shuru{
+    width: 4.2rem;
+    height: .8rem;
+    border: 1px solid #000000;
+    background: #f5f4f4;
+    margin-left: 1.56rem;
+    padding-left: .4rem;
+}

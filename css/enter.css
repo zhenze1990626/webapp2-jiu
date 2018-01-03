@@ -1,0 +1,90 @@
+html{
+    width:100%;
+    height:100%;
+    overflow:hidden;
+    position: relative;
+}
+body{
+    margin:0;
+    height:100%;
+    overflow:auto;
+}
+.confirm{
+    width: 100%;
+    height:1.2rem;
+    position:absolute;
+    bottom: 0;
+    background: red;
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    width: 50%;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: .66rem;
+    background: #ffb607;
+}
+.right{
+    width: 50%;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    text-align: center;
+    color: #ffb607;
+    font-weight: bold;
+    font-size: .66rem;
+    background: #ffffff;
+}
+
+/*背景*/
+
+
+.background{
+    position: relative;
+}
+.background3{
+    width: 7.5rem;
+    height:13rem;
+}
+.number{
+    font-size: .34rem;
+    font-weight: bold;
+    color: #ffffff;
+    width: 100%;
+    height: .34rem;
+    text-align: center;
+    position: absolute;
+    top:1.83rem;
+}
+.head{
+    width: 2.12rem;
+    height: 2.12rem;
+    position: absolute;
+    top:2.84rem;
+    left:50%;
+    margin-left: -1.06rem;
+}
+.text{
+    font-size: .48rem;
+    font-weight: bold;
+    color: #ffffff;
+    width: 100%;
+    height: .48rem;
+    text-align: center;
+    position: absolute;
+    top:5.7rem;
+}
+
+.text2{
+    font-size: .34rem;
+    font-weight: bold;
+    color: #ffffff;
+    width: 100%;
+    height: .34rem;
+    text-align: center;
+    position: absolute;
+    top:7.06rem;
+}

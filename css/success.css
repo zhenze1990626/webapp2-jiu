@@ -1,0 +1,84 @@
+html{
+    width:100%;
+    height:100%;
+    position: relative;
+}
+body{
+    margin:0;
+    padding: 0;
+    height:100%;
+}
+.header{
+    top:0;
+    width: 100%;
+    height: .9rem;
+    background: #ffb607;
+    height: .9rem;
+    line-height: .9rem;
+    position: fixed;
+    top:0;
+    z-index:1000;
+    color: #ffffff;
+    font-size: .34rem;
+    font-weight:bold;
+}
+.back2{
+    width:.29rem;
+    height:.44rem;
+
+}
+.car{
+    width:3rem;
+    height:100%;
+    position:absolute;
+    left:.2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.car span{
+    margin-left: .13rem;
+
+}
+.car2{
+    width: .45rem;
+    height: .44rem;
+    margin-top: .23rem;
+}
+/*购物车*/
+.car3{
+    width: 100%;
+    height: 3.85rem;
+    background: #f6c54f;
+    margin-top: .9rem;
+    display: flex;
+    flex-direction: column;
+}
+.car4{
+    width: 1.21rem;
+    height: 1.16rem;
+    margin: .4rem 0 .3rem 3.14rem;
+}
+
+.car5{
+    width:100%;
+    height: .35rem;
+    font-size: .3rem;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: .4rem;
+}
+.car6{
+    width:1.8rem;
+    height: .6rem;
+    border: .05rem solid #ffffff;
+    text-align: center;
+    line-height: .6rem;
+    font-size: .3rem;
+    color: #ffffff;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    margin-left: -.9rem;
+}

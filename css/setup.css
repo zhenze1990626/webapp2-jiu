@@ -1,0 +1,174 @@
+html{
+    width:100%;
+    height:100%;
+    position: relative;
+}
+body{
+    margin:0;
+    padding: 0;
+    height:100%;
+    background: #dfdfdf;
+}
+.header{
+    width: 100%;
+    height: .9rem;
+    background: #ffb607;
+    line-height: .9rem;
+    position: fixed;
+    top:0;
+    z-index: 1000;
+    color: #ffffff;
+    font-size: .34rem;
+    font-weight:bold;
+}
+.back2{
+    width:.29rem;
+    height:.44rem;
+
+}
+.car{
+    width:3rem;
+    height:100%;
+    position:absolute;
+    left:.2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.car span{
+    margin-left: .13rem;
+
+}
+.car a{
+    color: #ffffff;
+}
+
+.center{
+    width: 3rem;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+    left:50%;
+    margin-left: -1.5rem;
+    font-size: .34rem;
+    color: #ffffff;
+}
+
+/*具体内容*/
+.paragraph{
+    margin-top: .9rem;
+    width: 100%;
+    height:auto;
+    background: #ffffff;
+    margin-bottom:.05rem;
+    display: flex;
+    flex-direction: column;
+}
+.paragraph-text1{
+    width: 100%;
+    font-size: .34rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    height: .34rem;
+    position: relative;
+    margin-top: .3rem;
+    margin-bottom: .3rem;
+}
+.left{
+    position: absolute;
+    left: .24rem;
+}
+.right{
+    position:absolute;
+    right: .24rem;
+}
+.paragraph-text2{
+    width:6.9rem;
+    margin: 0 auto;
+    overflow-x: hidden;
+    font-size: .28rem;
+    color: #000000;
+    font-weight: bold;
+    padding-bottom: .3rem;
+}
+.black{
+    width: 100%;
+    height: 1px;
+    background:#dfdfdf;
+}
+.paragraph-text3{
+    width: 100%;
+    height: 1.06rem;
+    background: #ffffff;
+    border-bottom: .05rem solid #dfdfdf;
+    margin-right: .3rem;
+    position: relative;
+}
+.test{
+    font-size: .26rem;
+    font-weight: bold;
+    color: #ffb607;
+    position: absolute;
+    height: 1.06rem;
+    line-height: 1.06rem;
+    left:.24rem;
+}
+
+.paragraph-text3 div:nth-child(1){
+    float: right;
+    width: 1.06rem;
+    height: .64rem;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: .16rem;
+    text-align: center;
+    margin-right: .24rem;
+    background: #ffb607;
+    margin-top: .21rem;
+}
+.paragraph-text3 div:nth-child(1) li{
+    padding-top: .05rem;
+}
+.paragraph-text3 div:nth-child(2){
+    float: right;
+    width: 1.06rem;
+    height: .6rem;
+    border: 1px solid #000000;
+    line-height: .6rem;
+    color: #000000;
+    font-weight: bold;
+    font-size: .26rem;
+    text-align: center;
+    margin-right: .4rem;
+    margin-top: .21rem;
+}
+.paragraph-text3 div:nth-child(3){
+    float: right;
+    width: 1.06rem;
+    height: .6rem;
+    border: 1px solid #000000;
+    line-height: .6rem;
+    color: #000000;
+    font-weight: bold;
+    font-size: .26rem;
+    text-align: center;
+    margin-right: .4rem;
+    margin-top: .21rem;
+}
+/*添加*/
+.add{
+    width: 7.02rem;
+    height: 1.1rem;
+    background: #ffb607;
+    text-align: center;
+    line-height: 1.1rem;
+    font-weight: bold;
+    font-size: .54rem;
+    color: #ffffff;
+    margin:.36rem auto 0 auto;
+
+}
+.default{
+    display: none;
+}

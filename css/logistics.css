@@ -1,0 +1,170 @@
+html{
+    width:100%;
+    height:100%;
+    position: relative;
+}
+body{
+    margin:0;
+    padding: 0;
+    height:100%;
+    background:#dfdfdf;
+}
+.header{
+    top:0;
+    width: 100%;
+    height: .9rem;
+    background: #ffb607;
+    height: .9rem;
+    line-height: .9rem;
+    position: fixed;
+    top:0;
+    z-index: 1000;
+    color: #ffffff;
+    font-size: .34rem;
+    font-weight:bold;
+}
+.back2{
+    width:.29rem;
+    height:.44rem;
+
+}
+.car{
+    width:3rem;
+    height:100%;
+    position:absolute;
+    left:.2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.car a{
+    color: #ffffff;
+}
+.car span{
+    margin-left: .13rem;
+
+}
+.search{
+    width: .43rem;
+    height: .45rem;
+    margin-top: .23rem;
+    position: absolute;
+    right: .3rem;
+}
+
+.search2{
+    width:1rem;
+    height: 100%;
+    position: absolute;
+    right:0;
+}
+.center{
+    width: 3rem;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+    left:50%;
+    margin-left: -1.5rem;
+    font-size: .34rem;
+    color: #ffffff;
+}
+
+/*中间自适应*/
+.country{
+    width: 100%;
+    position: absolute;
+    top:.9rem;
+    bottom: 1.5rem;
+    overflow-y: auto;
+    overflow-x: hidden;
+    z-index: 100;
+}
+.title{
+    width: 100%;
+    height: 2.3rem;
+    background: #ffffff;
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    width: 2.36rem;
+    height: 1.65rem;
+    margin: .3rem;
+}
+
+.tite-detail{
+    width: 4.55rem;
+    height: 1.65rem;
+    display: flex;
+    flex-direction:column;
+    margin: .3rem 0;
+}
+
+.tite-detail div{
+    font-size: .28rem;
+    font-weight: bold;
+    color: #969696;
+    margin-bottom: .15rem;
+}
+.tite-detail div b{
+    color: #000000;
+}
+
+.tite-detail div em{
+    color: #ffb607;
+}
+.state{
+    margin-top: .05rem;
+    background: #ffffff;
+    width: 100%;
+    height: .8rem;
+    line-height: .8rem;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: .05rem;
+
+}
+.state div{
+    font-size: .28rem;
+    font-weight: bold;
+    color: #000000;
+    padding-left: .4rem;
+}
+.state div span{
+    font-size: .28rem;
+    font-weight: bold;
+    color: #ffb607;
+}
+.back{
+    width: .18rem;
+    height: .32rem;
+    position: absolute;
+    right: .3rem;
+    margin-top: .24rem;
+}
+.detail-address{
+    width: 100%;
+    height: auto;
+    margin-bottom: .05rem;
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+}
+.address{
+    font-size: .28rem;
+    font-weight: bold;
+    color: #000000;
+    margin-top: .25rem;
+    margin-left: .4rem;
+    width: 90%;
+
+}
+.time{
+    font-size: .28rem;
+    font-weight: bold;
+    color: #989898;
+    margin-left: .4rem;
+    margin-top: .25rem;
+    margin-bottom: .3rem;
+
+}
