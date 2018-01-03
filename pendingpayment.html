@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>pendingpayment</title>
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <link rel="stylesheet" type="text/css" href="css/pending.css"/>
+    <link rel="stylesheet" type="text/css" href="css/public.css"/>
+</head>
+<body>
+<!--头部选项卡-->
+<div class="tab">
+     <ul>
+         <li id="all">全部</li>
+         <li style="color:#ffb607; border-bottom:3px solid #ffb607;">待付款</li>
+         <li>待发货</li>
+         <li>待收货</li>
+         <li>待退货</li>
+     </ul>
+</div>
+
+<!-- 购物车 -->
+<!--待付款-->
+<div class="tab2">
+<div class="car-goods">
+    <div class="shop">
+        <input type="checkbox" class="check goods-check shopCheck">
+        <img src="img/shoplist.png" alt="" class="shoplist">
+        <div class="shopname">xxxx店铺</div>
+        <img src="img/back.png" class="back" alt="">
+        <div class="write2">等待卖家付款</div>
+    </div>
+
+
+    <div class="shop2">
+        <input type="checkbox" class="check goods-check goodsCheck">
+        <img src="img/background.png" class="background">
+        <div class="detail">
+            <div class="detail-title"></div>
+            <span class="text"><span></span>(<em></em>)</span>
+            <span class="text2">￥<b class="price2"></b><em>￥888</em><cite>x<b class="number"></b></cite></span>
+        </div>
+
+    </div>
+
+
+    <div class="shop2">
+        <input type="checkbox" class="check goods-check goodsCheck">
+        <img src="img/background.png" class="background">
+        <div class="detail">
+            <div class="detail-title"></div>
+            <span class="text"><span></span>(<em></em>)</span>
+            <span class="text2">￥<b class="price2"></b><em>￥888</em><cite>x<b class="number"></b></cite></span>
+        </div>
+    </div>
+    <!--订单-->
+    <div class="code2">
+        <div class="code2-text">
+            共<span></span>件商品  合计 ：¥ <em></em>（含运费 ¥ <cite>0.00</cite>）
+        </div>
+        <div class="code3">
+            <div class="left">取消订单</div>
+            <div class="right">付款</div>
+
+        </div>
+
+    </div>
+</div>
+
+
+    <div class="car-goods">
+        <div class="shop">
+            <input type="checkbox" class="check goods-check shopCheck">
+            <img src="img/shoplist.png" alt="" class="shoplist">
+            <div class="shopname">xxxx店铺</div>
+            <img src="img/back.png" class="back" alt="">
+            <div class="write2">等待卖家付款</div>
+        </div>
+
+
+        <div class="shop2">
+            <input type="checkbox" class="check goods-check goodsCheck">
+            <img src="img/background.png" class="background">
+            <div class="detail">
+                <div class="detail-title"></div>
+                <span class="text"><span></span>(<em></em>)</span>
+                <span class="text2">￥<b class="price2"></b><em>￥888</em><cite>x<b class="number"></b></cite></span>
+            </div>
+
+        </div>
+
+
+        <div class="shop2">
+            <input type="checkbox" class="check goods-check goodsCheck">
+            <img src="img/background.png" class="background">
+            <div class="detail">
+                <div class="detail-title"></div>
+                <span class="text"><span></span>(<em></em>)</span>
+                <span class="text2">￥<b class="price2"></b><em>￥888</em><cite>x<b class="number"></b></cite></span>
+            </div>
+        </div>
+        <!--订单-->
+        <div class="code2">
+            <div class="code2-text">
+                 合计 ：¥ <em></em>（含运费 ¥ <cite>0.00</cite>）
+            </div>
+            <div class="code3">
+                <div class="left">取消订单</div>
+                <div class="right">付款</div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+<!-- 结算-->
+<div class="code">
+    <input type="checkbox" class="check goods-check" id="AllCheck">
+    <div class="all">全选</div>
+    <div class="layout">合并付款(<em></em>)</div>
+    <div class="price">
+        <ul>
+            <li class="num">合计:<span>￥<em id="price"></em></span></li>
+            <li class="get">含运费:0</li>
+        </ul>
+
+    </div>
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+<!--待发货-->
+<div class="tab2" style="display: none;">
+    <div class="car-goods">
+        <div class="shop">
+            <img src="img/shoplist.png" alt="" class="shoplist">
+            <div class="shopname">xxxx店铺2</div>
+            <img src="img/back.png" class="back" alt="">
+            <div class="write2">等待卖家发货</div>
+        </div>
+
+
+        <div class="shop2">
+            <img src="img/background.png" class="background">
+            <div class="detail">
+                <div class="detail-title"></div>
+                <span class="text"><span></span>(<em></em>)</span>
+                <span class="text2">￥<b class="price2"></b><em>￥888</em><cite>x<b class="number"></b></cite></span>
+            </div>
+
+        </div>
+
+
+        <div class="shop2">
+            <img src="img/background.png" class="background">
+            <div class="detail">
+                <div class="detail-title"></div>
+                <span class="text"><span></span>(<em></em>)</span>
+                <span class="text2">￥<b class="price2"></b><em>￥888</em><cite>x<b class="number"></b></cite></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<!--待收货-->
+<div class="tab2" style="display: none;">
+    <div class="car-goods">
+        <div class="shop">
+            <img src="img/shoplist.png" alt="" class="shoplist">
+            <div class="shopname">xxxx店铺3</div>
+            <img src="img/back.png" class="back" alt="">
+            <div class="write2">卖家已发货</div>
+        </div>
+
+
+        <div class="shop2">
+            <img src="img/background.png" class="background">
+            <div class="detail">
+                <div class="detail-title"></div>
+                <span class="text"><span></span>(<em></em>)</span>
+                <span class="text2">￥<b class="price2"></b><em>￥888</em><cite>x<b class="number"></b></cite></span>
+            </div>
+
+        </div>
+
+
+        <div class="shop2">
+            <img src="img/background.png" class="background">
+            <div class="detail">
+                <div class="detail-title"></div>
+                <span class="text"><span></span>(<em></em>)</span>
+                <span class="text2">￥<b class="price2"></b><em>￥888</em><cite>x<b class="number"></b></cite></span>
+            </div>
+        </div>
+        <!--订单-->
+        <div class="code2">
+            <div class="code2-text">
+                 合计 ：¥ <em></em>（含运费 ¥ <cite>0.00</cite>）
+            </div>
+            <div class="code4">
+                <div class="left2 time">延迟收货</div>
+                <div class="left2"><a href="logistics.html">查看物流</a></div>
+                <div class="right2">确认收货</div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<!--待退货-->
+<div class="tab2" style="display: none;">
+    <div class="car-goods">
+        <div class="shop">
+            <img src="img/shoplist.png" alt="" class="shoplist">
+            <div class="shopname">xxxx店铺4</div>
+            <img src="img/back.png" class="back" alt="">
+            <div class="write2">等待卖家审核</div>
+        </div>
+
+
+        <div class="shop2">
+            <img src="img/background.png" class="background">
+            <div class="detail">
+                <div class="detail-title"></div>
+                <span class="text"><span></span>(<em></em>)</span>
+                <span class="text2">￥<b class="price2"></b><em>￥888</em><cite>x<b class="number"></b></cite></span>
+            </div>
+
+        </div>
+
+
+        <div class="shop2">
+            <img src="img/background.png" class="background">
+            <div class="detail">
+                <div class="detail-title"></div>
+                <span class="text"><span></span>(<em></em>)</span>
+                <span class="text2">￥<b class="price2"></b><em>￥888</em><cite>x<b class="number"></b></cite></span>
+            </div>
+        </div>
+        <!--订单-->
+        <div class="code2">
+            <div class="code2-text">
+                合计 ：¥ <em></em>（含运费 ¥ <cite>0.00</cite>）
+            </div>
+            <div class="code4">
+                <div class="left2 delete">撤销申请</div>
+                <div class="left2"><a href="logistics.html">查看物流</a></div>
+                <div class="right2 contat">联系客服</div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="car-goods">
+        <div class="shop">
+            <img src="img/shoplist.png" alt="" class="shoplist">
+            <div class="shopname">xxxx店铺4</div>
+            <img src="img/back.png" class="back" alt="">
+            <div class="write2">等待卖家审核</div>
+        </div>
+
+
+        <div class="shop2">
+            <img src="img/background.png" class="background">
+            <div class="detail">
+                <div class="detail-title"></div>
+                <span class="text"><span></span>(<em></em>)</span>
+                <span class="text2">￥<b class="price2"></b><em>￥888</em><cite>x<b class="number"></b></cite></span>
+            </div>
+
+        </div>
+
+
+        <div class="shop2">
+            <img src="img/background.png" class="background">
+            <div class="detail">
+                <div class="detail-title"></div>
+                <span class="text"><span></span>(<em></em>)</span>
+                <span class="text2">￥<b class="price2"></b><em>￥888</em><cite>x<b class="number"></b></cite></span>
+            </div>
+        </div>
+        <!--订单-->
+        <div class="code2">
+            <div class="code2-text">
+                合计 ：¥ <em></em>（含运费 ¥ <cite>0.00</cite>）
+            </div>
+            <div class="code4">
+                <div class="left2 delete">撤销申请</div>
+                <div class="left2"><a href="logistics.html">查看物流</a></div>
+                <div class="right2 contat">联系客服</div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<!--弹框-->
+<div class="alert2">
+    <div class="title">确认延长收货时间</div>
+    <div class="title2">每笔订单只能延迟一次哦（7天）</div>
+    <div class="confirm">
+        <div class="xiao">取消</div>
+        <div class="ding">确定</div>
+
+    </div>
+</div>
+
+
+<!--客服弹框-->
+<div class="alert3">
+    <div class="title">客户服务</div>
+    <div class="title3">客服电话：13853189638</div>
+    <div class="title3">客服微信：13853189638</div>
+    <div class="title3">客服QQ：  13853189638</div>
+    <div class="confirm2">确定</div>
+</div>
+<!--黑幕-->
+<div class="black2"></div>
+
+
+</body>
+</html>
+<script src="js/jquery 1.12.js"></script>
+<script src="js/rem.js"></script>
+<script src="js/car.js"></script>
+<script src="js/pending.js"></script>
